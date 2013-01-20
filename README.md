@@ -122,4 +122,4 @@ TODO
 Fork the [shiftpi repo on GitHub](https://github.com/mignev/shiftpi), make your super duper awesome changes :) and send me a Pull Request. :)
 
 #Copyright
-Copyright (c) 2012 Marian Ignev. See LICENSE for further details.
+Copyright (c) 2013 Marian Ignev. See LICENSE for further details.

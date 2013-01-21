@@ -23,7 +23,7 @@ distutils.core.setup(name='shiftpi',
       url='http://m.ignev.net/code/shiftpi',
       packages=['shiftpi'],
       long_description=read('README.md'),
-      install_requires = ['RPi.GPIO'],
+      # install_requires = ['RPi.GPIO'],
       classifiers=[
           'Operating System :: POSIX',
           'Operating System :: POSIX :: BSD',

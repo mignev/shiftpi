@@ -109,7 +109,11 @@ If you are an Arduino guy you just need to know that this method works just like
 
 # Installation
 
-from source
+First install RPi.GPIO library.
+
+    # sudo apt-get install python-rpi.gpio
+
+Get `shiftpi` source and install it
 
     # git clone git@github.com:mignev/shiftpi.git
     # cd shiftpi

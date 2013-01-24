@@ -3,8 +3,8 @@ from time import sleep
 
 GPIO.setmode(GPIO.BCM)
 
-version = "0.1"
-version_info = (0, 1)
+version = "0.2"
+version_info = (0, 2)
 
 # Define MODES
 ALL  = -1
@@ -12,9 +12,9 @@ HIGH = 1
 LOW  = 0
 
 # Define pins
-_SER_pin   = 7    #pin 14 on the 75HC595
-_RCLK_pin  = 8    #pin 12 on the 75HC595
-_SRCLK_pin = 25   #pin 11 on the 75HC595
+_SER_pin   = 25    #pin 14 on the 75HC595
+_RCLK_pin  = 24    #pin 12 on the 75HC595
+_SRCLK_pin = 23   #pin 11 on the 75HC595
 
 # is used to store states of all pins
 _registers = list()

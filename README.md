@@ -3,7 +3,7 @@ ShiftPi
 
 ShiftPi is the easiest way to work with `74HC595` shift registers on your Raspberry Pi in Arduino style :). If you are an Arduino fan ... you will love it :) This library is inspired from this article: [Can you move over? The 74HC595 8 bit shift register](http://bildr.org/2011/02/74hc595/)
 
-# How to connect Pi with `74HC595` 
+# How to connect Pi with `74HC595`
 ![Example](https://dl.dropbox.com/u/4710119/mess/shiftpi-conn_bb.png)
 
 #Quick Example ... Arduino style :)
@@ -59,9 +59,9 @@ In all examples below i will use the second way of importing methods. (from shif
 ## pinsSetup(dict)
 By the way by default `SER`, `RCLK`, `SRCLK` are set as follow:
 
-* SER   = 7  (GPIO RPI)  #pin 14 on the 75HC595
-* RCLK  = 8  (GPIO RPI)  #pin 12 on the 75HC595
-* SRCLK = 25 (GPIO RPI)  #pin 11 on the 75HC595
+* SER   = 25  (GPIO RPI)  #pin 14 on the 75HC595
+* RCLK  = 24  (GPIO RPI)  #pin 12 on the 75HC595
+* SRCLK = 23  (GPIO RPI)  #pin 11 on the 75HC595
 
 But ... if you want to use other GPIOs ... you can define them with the following method:
 

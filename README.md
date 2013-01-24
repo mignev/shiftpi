@@ -119,8 +119,12 @@ Get `shiftpi` source and install it
     # cd shiftpi
     # python setup.py install
 
+
 # Testing
 TODO
+
+# Simple connection schematic
+![Example](https://dl.dropbox.com/u/4710119/mess/shiftpi-conn_bb.png)
 
 # Contributing
 Fork the [shiftpi repo on GitHub](https://github.com/mignev/shiftpi), make your super duper awesome changes :) and send me a Pull Request. :)

@@ -128,5 +128,8 @@ TODO
 # Contributing
 Fork the [shiftpi repo on GitHub](https://github.com/mignev/shiftpi), make your super duper awesome changes :) and send me a Pull Request. :)
 
+# Useful links
+* [How Shift Registers work?](http://www.youtube.com/watch?feature=player_embedded&v=6fVbJbNPrEU#!) (Video)
+
 #Copyright
 Copyright (c) 2013 Marian Ignev. See LICENSE for further details.

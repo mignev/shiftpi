@@ -106,21 +106,23 @@ If you are an Arduino guy you just need to know that this method works just like
 #Requirements
 
 * Raspberry Pi
-* Python 2.6+
+* Python 2.6+ and Python development tools
 * RPi.GPIO (latest version recommended)
 
 # Installation
 
-First install RPi.GPIO library.
+First install RPi.GPIO library and Python development tools:
 
-    # sudo apt-get install python-rpi.gpio
+    # sudo apt-get update && sudo apt-get -y install python-rpi.gpio python-dev
 
-Get `shiftpi` source and install it
+Get `shiftpi` source and install it:
 
-    # git clone git@github.com:mignev/shiftpi.git
-    # cd shiftpi
-    # python setup.py install
+    # git clone git://github.com/mignev/shiftpi.git
+    # sudo python shiftpi/setup.py install
 
+After installation, you can remove the folder as it is no longer needed by running:
+    
+    # sudo rm -rf shiftpi
 
 # Testing
 TODO

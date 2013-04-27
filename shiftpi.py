@@ -1,3 +1,8 @@
+'''
+A library that allows simple access to 74HC595 shift registers on a Raspberry Pi using any digital I/O pins.
+'''
+
+
 import RPi.GPIO as GPIO
 from time import sleep
 
@@ -23,6 +28,9 @@ _registers = list()
 _number_of_shiftregisters = 1
 
 def pinsSetup(**kwargs):
+    '''
+    Allows the user to define custom pins
+    '''
     global _SER_pin, _RCLK_pin, _SRCLK_pin
 
     custompins = 0
@@ -48,6 +56,9 @@ def pinsSetup(**kwargs):
     GPIO.setup(_SRCLK_pin, GPIO.OUT)
 
 def startupMode(mode, execute = False):
+    '''
+    Allows the user to change the default state of the shift registers outputs
+    '''
     if isinstance(mode, int):
         if mode is HIGH or mode is LOW:
             _all(mode, execute)
@@ -63,11 +74,17 @@ def startupMode(mode, execute = False):
 
 
 def shiftRegisters(num):
+    '''
+    Allows the user to define the number of shift registers are connected
+    '''
     global _number_of_shiftregisters
     _number_of_shiftregisters = num
     _all(LOW)
 
 def digitalWrite(pin, mode):
+    '''
+    Allows the user to set the state of a pin on the shift register
+    '''
     if pin == ALL:
         _all(mode)
     else:
@@ -78,6 +95,9 @@ def digitalWrite(pin, mode):
     _execute()
 
 def delay(millis):
+    '''
+    Used for creating a delay between commands
+    '''
     millis_to_seconds = millis/1000
     return sleep(millis_to_seconds)
 

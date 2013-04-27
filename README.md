@@ -118,7 +118,7 @@ First install RPi.GPIO library and Python development tools:
 Get `shiftpi` source and install it:
 
     # git clone git://github.com/mignev/shiftpi.git
-    # sudo python setup.py install
+    # sudo python shiftpi/setup.py install
 
 
 # Testing

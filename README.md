@@ -120,6 +120,9 @@ Get `shiftpi` source and install it:
     # git clone git://github.com/mignev/shiftpi.git
     # sudo python shiftpi/setup.py install
 
+After installation, you can remove the folder as it is no longer needed by running:
+    
+    # sudo rm -rf shiftpi
 
 # Testing
 TODO

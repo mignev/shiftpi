@@ -98,7 +98,7 @@ def delay(millis):
     '''
     Used for creating a delay between commands
     '''
-    millis_to_seconds = millis/1000
+    millis_to_seconds = float(millis)/1000
     return sleep(millis_to_seconds)
 
 def _all_pins():

@@ -24,7 +24,7 @@ _SRCLK_pin = 23   #pin 11 on the 75HC595
 # is used to store states of all pins
 _registers = list()
 
-#How many of the shift registers - change this
+#How many of the shift registers - you can change them with shiftRegisters method
 _number_of_shiftregisters = 1
 
 def pinsSetup(**kwargs):

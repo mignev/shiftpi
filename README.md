@@ -130,6 +130,12 @@ TODO
 # Contributing
 Fork the [shiftpi repo on GitHub](https://github.com/mignev/shiftpi), make your super duper awesome changes :) and send me a Pull Request. :)
 
+# Contributors
+
+- [Marian Ignev](https://github.com/mignev) 
+- [Nathan Bookham](https://github.com/inversesandwich)
+- [Felix Breidenstein](https://github.com/f-breidenstein)
+
 # Useful links
 * [How Shift Registers work?](http://www.youtube.com/watch?feature=player_embedded&v=6fVbJbNPrEU#!) (Video)
 

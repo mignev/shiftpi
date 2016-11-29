@@ -1,10 +1,15 @@
 ShiftPi
 =======
 
-ShiftPi is the easiest way to work with `74HC595` shift registers on your Raspberry Pi in Arduino style :). If you are an Arduino fan ... you will love it :) This library is inspired from this article: [Can you move over? The 74HC595 8 bit shift register](http://bildr.org/2011/02/74hc595/)
+ShiftPi is the easiest way to work with `74HC595` or `TPIC6C595` shift registers on your Raspberry Pi in Arduino style :). If you are an Arduino fan ... you will love it :) This library is inspired from this article: [Can you move over? The 74HC595 8 bit shift register](http://bildr.org/2011/02/74hc595/)
 
 # How to connect Pi with `74HC595`
 ![Scheme](http://i.picresize.com/images/2014/03/11/xM26G.jpg)
+
+# How to connect Pi with `TPIC6C595`
+![Sheme](http://i.picresize.com/images/2016/11/29/h7l8n.png)
+
+- Note how the LED's are reversed in this diagram, this is because the ouputs on the `TPIC6C595` are current drains, that is to say they "pull" current through the LED, rather then "push" the current as the `74HC595` does
 
 #Quick Example ... Arduino style :)
 So ... Let's have a look how can we create some magic :)
